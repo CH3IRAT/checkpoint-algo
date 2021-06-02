@@ -1,0 +1,24 @@
+ALGORITHM checkpoint ; 
+VAR
+ch:=string;
+th:= Pos ('THE', 'ch');
+len:=Length('ch');
+
+espace:=0;
+mots:=0;
+Voyelle:=0;
+BEGIN
+FOR i=0 TO TH DO
+if UPCASE(ch[i] in ['A'.'E'.'I'.'O'.'U'.'Y']) 
+Voyelle:=Voyelle+1;
+if (ch[i]=("") 
+espace:=espace+1:
+mots:=espace+1;
+END
+write(len);
+write(mots);
+write(Voyelle);
+
+
+
+
